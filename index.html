@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="generateRandomArray()" onresize="generateRandomArray()">
+    <div class = "navbar">
+        <button onclick="generateRandomArray()" class="left nav-element">Generate New Array</button>
+        <span class="left nav-element selected">Merge Sort</span>
+        <span class="left nav-element sort">Bubble Sort</span>
+        <span class="left nav-element sort">Quick Sort</span>
+        <span class="left nav-element sort">Heap Sort</span>
+        <button onclick="sortArray()" class="left nav-element">Start</button>
+        </ul>
+    </div>    
+
+    <div class="container">
+        <h2 class = "sidebar">Array</h1>
+        <div id="array" class = "main">
+            <div class="arrayElement"></div>
+         </div>
+
+         <div class="clr"></div>
+
+         <h2 class = "sidebar">Temp Array</h1>
+         <div id="tempArray" class = "main">
+            <div class="tempArrayElement"></div>
+        </div>
+    </div>
+
+    <div id="container">
+
+    </div>
+
+    <script src="Scripts/SortingVisualizer.js"></script>
+</body>
+
+</html>

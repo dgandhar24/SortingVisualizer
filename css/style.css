@@ -1,0 +1,125 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    border: 0px;
+    border-radius: 50px;
+    background-color:crimson;
+}
+
+button:hover{
+    background-color: tomato;
+}
+
+button:active{
+    background-color: salmon;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 30px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar .nav-element {
+    padding: 10px 15px;
+}
+
+.nav-element {
+    color: whitesmoke;
+}
+
+.sort {
+    border-radius: 100%;
+    margin:0px 5px;
+}
+
+.sort:hover {
+    background-color: darkorange; 
+}
+
+.selected {
+    padding: 10px 15px;
+    background-color: rgb(250, 71, 0);
+    color: whitesmoke;
+    border-radius: 100%;
+    margin:0px 5px;
+}
+
+.div{
+    padding: 0px;
+    margin: 0px ;
+}
+#array, #tempArray {
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.arrayElement {
+    display: inline-block;  
+    background-color: palevioletred;
+    color: transparent;
+    width: 3px;
+    height: 250px;
+    margin: 0px 1px;
+}
+
+.tempArrayElement {
+    display: inline-block;  
+    background-color: transparent;
+    color: transparent;
+    width: 3px;
+    height: 250px;
+    margin: 0px 1px;
+}
+
+.sidebar {
+    float: left;
+    width: 10%;
+    /* box-sizing: border-box; */
+    margin: 0px 5px;
+    /* border: 1px solid; */
+}
+
+.main {
+    float: right;
+    width: 90%;
+    margin: 0px 5px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid; */
+}
+
+
+@media (max-width: 400px){
+    .sidebar {
+        clear: both;
+        display: none;
+        width:100%;
+    }
+    .main {
+        clear: both;
+        width:100%;
+    }
+} 
